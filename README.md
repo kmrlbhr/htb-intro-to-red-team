@@ -38,22 +38,43 @@
 
 ```mermaid
 flowchart LR
-    A([📚 Enrolled]) --> B[Section 1]
-    B --> C[Section 2]
-    C --> D[Section 3]
-    D --> E[Labs]
-    E --> F([🏁 Course complete])
+    A([📚 Enrolled]) --> B[Easy Linux boxes<br/>Cap · Sau · GoodGames · …]
+    B --> C[Easy Windows boxes<br/>Jerry · Driver · Cicada]
+    C --> D[Medium AD boxes<br/>Certified · Administrator]
+    D --> E([🏁 Course complete])
+
+    style A fill:#1b2a4a,stroke:#9FEF00,color:#fff
+    style B fill:#14301a,stroke:#9FEF00,color:#9FEF00
+    style C fill:#1b2a4a,stroke:#9FEF00,color:#fff
+    style D fill:#2a1b3a,stroke:#b57edc,color:#fff
+    style E fill:#1b2a4a,stroke:#9FEF00,color:#fff
 ```
 
-> _Update the nodes with the real section names as I go._
+> 15 machines total — mostly Easy Linux, ramping to two Medium Windows Active Directory boxes.
 
 ---
 
 ## ✅ Progress Tracker
 
-| # | Section | Notes | Status |
-|---|---------|-------|--------|
-| 1 | _TBD_ | [notes/01-section.md](notes/01-section.md) | ⬜ Not started |
+**Boxes rooted: 1 / 15**
+
+| # | Machine | Difficulty | OS | Writeup | Status |
+|---|---------|-----------|-----|---------|--------|
+| 1 | Cap | Easy | Linux | [writeups/cap.md](writeups/cap.md) | ✅ Done |
+| 2 | Jerry | Easy | Windows | — | ⬜ Not started |
+| 3 | Sau | Easy | Linux | — | ⬜ Not started |
+| 4 | GoodGames | Easy | Linux | — | ⬜ Not started |
+| 5 | Devvortex | Easy | Linux | — | ⬜ Not started |
+| 6 | Paper | Easy | Linux | — | ⬜ Not started |
+| 7 | Writeup | Easy | Linux | — | ⬜ Not started |
+| 8 | Precious | Easy | Linux | — | ⬜ Not started |
+| 9 | Driver | Easy | Windows | — | ⬜ Not started |
+| 10 | BoardLight | Easy | Linux | — | ⬜ Not started |
+| 11 | Cicada | Easy | Windows | — | ⬜ Not started |
+| 12 | TwoMillion | Easy | Linux | — | ⬜ Not started |
+| 13 | SteamCloud | Easy | Linux | — | ⬜ Not started |
+| 14 | Certified | Medium | Windows | — | ⬜ Not started |
+| 15 | Administrator | Medium | Windows | — | ⬜ Not started |
 
 Legend: ⬜ Not started · 🟨 In progress · ✅ Done
 
