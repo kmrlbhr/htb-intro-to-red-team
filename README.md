@@ -16,6 +16,7 @@
 - [Learning Roadmap](#️-learning-roadmap)
 - [Progress Tracker](#-progress-tracker)
 - [Module Notes](#-module-notes)
+- [Lab Writeups](#-lab-writeups)
 - [Cheatsheets](#-cheatsheets)
 - [Key Takeaways](#-key-takeaways)
 
@@ -78,6 +79,16 @@ Legend: ⬜ Not started · 🟨 In progress · ✅ Done
 
 </details>
 </details>
+
+---
+
+## 🧪 Lab Writeups
+
+Full interactive machine walkthroughs completed during the course.
+
+| Machine | Difficulty | Foothold | Privesc | Writeup |
+|---------|-----------|----------|---------|---------|
+| Cap | Easy | IDOR → pcap FTP creds | `cap_setuid` on python3.8 | [writeups/cap.md](writeups/cap.md) |
 
 ---
 
